@@ -326,6 +326,7 @@ input {
 .about__container {
     grid-template-columns: 6fr 6fr;
     align-items: center;
+    margin-top: 7rem;
 }
 
 .about__subtitle,
@@ -826,7 +827,7 @@ input {
     }
 
     .products__container {
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(5,1fr);
     }
 }
 
@@ -905,7 +906,7 @@ input {
     }
 
     .home__container {
-        grid-template-columns: 2fr 4fr;
+        grid-template-columns: 4fr 2fr;
     }
 
     .about__container {

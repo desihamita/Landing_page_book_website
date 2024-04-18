@@ -49,16 +49,16 @@
                         </div>
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="" class="nav__link active-link">Home</a>
+                                <a href="#home" class="nav__link active-link">Home</a>
                             </li>
                             <li class="nav__item">
-                                <a href="" class="nav__link">About</a>
+                                <a href="#about" class="nav__link">About</a>
                             </li>
                             <li class="nav__item">
-                                <a href="" class="nav__link">Books</a>
+                                <a href="#books" class="nav__link">Books</a>
                             </li>
                             <li class="nav__item">
-                                <a href="" class="nav__link">Contact</a>
+                                <a href="#contact" class="nav__link">Contact</a>
                             </li>
                         </ul>
                         <div class="header__search">
@@ -116,7 +116,7 @@
                 </div>
             </section>
 
-            <section class="about section--lg" id="about">
+            <section class="about section--lg " id="about">
                 <div class="about__container container grid">
                     <div class="about__content">
                         <span class="home_subtitle">Hot Promotions</span>
@@ -133,7 +133,7 @@
                 </div>
             </section>
 
-            <section class="categories container section" id="books">
+            <section class="categories container section">
                 <h3 class="section__title"><span>Populer</span> Books </h3><hr>
                 <div class="categories__container swiper">
                     <div class="swiper-wrapper">
@@ -188,7 +188,7 @@
                 </div>
             </section>
 
-            <section class="products container section">
+            <section class="products container section" id="books">
                 <div class="tab__btns">
                     <span class="tab__btn active-tab" data-target="#featured">Featured</span>
                     <span class="tab__btn" data-target="#recomended">Recomended</span>
@@ -1238,7 +1238,7 @@
                 </div>
             </section>
 
-            <section class="discount section" id="discount">
+            <section class="discount section" >
                 <div class="discount__container container grid">
                     <div class="discount__images">
                         <img src="{{ asset('img/discount-book-1.png')}}" alt="image" class="discount__img-1">
@@ -1254,7 +1254,7 @@
                 </div>
             </section>
 
-            <section class="newsletter section home__newsletter" id="newsletter">
+            <section class="newsletter section home__newsletter" id="contact">
                 <div class="newsletter__container container grid">
                     <h3 class="newsletter__tittle flex">
                         <img src="{{ asset('img/icon-email.svg')}}" alt="" class="newsletter__icon" />
